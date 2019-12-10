@@ -1,0 +1,10 @@
+create database cliente;
+
+create table usuario(
+id int not null auto_increment,
+nome varchar(30) not null,
+cpf varchar(30) not null,
+email varchar(30) not null,
+telefone varchar(30) not null,
+primary key (id)
+);
